@@ -18,7 +18,7 @@ Il risultato andrà visualizzato in un apposito elemento <p> del  codice HTML.
   -  calcolo del prezzo del biglietto scontato (( variabile_km * 0,21 ) * 20) / 100;
 
 - fare condizione che controlla se la variabile "età" sia compresa tra "18" e "65";
-  -  calcolo del prezzo del biglietto scontato (( variabile_km * 0,21 ) * 20) / 100;
+  -  calcolo del prezzo del biglietto scontato ( variabile_km * 0,21 );
  
 - fare condizione che controlla se la variabile "età" sia maggiore di "65";
   -  calcolo del prezzo del biglietto scontato (( variabile_km * 0,21 ) * 40) / 100;
