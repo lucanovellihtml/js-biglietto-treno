@@ -3,8 +3,8 @@ const age = parseInt(prompt("Inserisci l'età del passeggero"));
 const km = parseFloat(prompt("Inserisci i KM da percorrere"));
 
 
-//CHECK SE IL VALORE E' NEGATIVO, VIENE RICARICATA LA PAGINA E RICHIESTI I VALORI
-if (age < 0 || km < 0)
+//CHECK SE IL VALORE E' NEGATIVO O NON UN NUMERO, VIENE RICARICATA LA PAGINA E RICHIESTI I VALORI
+if (age < 0 || isNaN(age) || km < 0 || isNaN(km))
     location.reload();
 
 console.log("età : " + age + " / km : " + km);
